@@ -1,0 +1,9 @@
+.v-expansion-panel--popout {
+  > .v-expansion-panel__container--active:first-child {
+    margin-top: 0 !important;
+  }
+
+  > .v-expansion-panel__container--active:last-child {
+    margin-bottom: 0 !important;
+  }
+}

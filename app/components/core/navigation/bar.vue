@@ -52,7 +52,8 @@ v-toolbar(app, dark, color="primary").is-brand-primary
     v-icon chevron_left
 
   v-spacer
-  v-toolbar-title Graphline
+  v-toolbar-title
+    h1.headline Graphline
   v-spacer
 
   v-toolbar-title(v-if="viewer")

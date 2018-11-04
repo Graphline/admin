@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
+import DatetimePicker from 'vuetify-datetime-picker'
 
 Vue.use(Vuetify, {'theme': {
   'primary':   '#005FFF',
@@ -10,3 +11,5 @@ Vue.use(Vuetify, {'theme': {
   'error':     '#D80B00',
   'success':   '#06BC5A',
 },})
+
+Vue.use(DatetimePicker)

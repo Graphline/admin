@@ -5,6 +5,7 @@ query($id: ID!) {
     id
     display
     published
+    publishedAt
     content
   }
 }
